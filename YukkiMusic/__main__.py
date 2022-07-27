@@ -62,7 +62,7 @@ async def init():
     await Yukki.start()
     try:
         await Yukki.stream_call(
-            "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
+            "https://www.youtube.com/watch?v=YKgATYmlews"
         )
     except NoActiveGroupCall:
         LOGGER("YukkiMusic").error(
